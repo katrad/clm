@@ -13,6 +13,10 @@
         </element>
         <element attributes="edge_encryption_enabled=true" choice="1" default="ca" label="What needed" max_length="40" name="u_what_needed" type="string">
             <choice>
+                <element inactive_on_update="false" label="Facilities 1" sequence="0" value="Facilities 1"/>
+                <element inactive_on_update="false" label="Human Resources 2" sequence="0" value="Human Resources 2"/>
+                <element inactive_on_update="false" label="Legal 1" sequence="0" value="Legal 1"/>
+                <element inactive_on_update="false" label="Legal 2" sequence="0" value="Legal 2"/>
                 <element inactive_on_update="false" label="Login Access" sequence="0" value="la"/>
                 <element inactive_on_update="false" label="ID Card" sequence="1" value="id"/>
                 <element inactive_on_update="false" label="Water Leak" sequence="2" value="wl"/>
