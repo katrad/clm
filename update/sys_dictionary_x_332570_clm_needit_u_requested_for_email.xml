@@ -48,7 +48,7 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-08-05 14:58:02</sys_created_on>
-        <sys_id>1aca4467db03330070ca4782399619fe</sys_id>
+        <sys_id>04cb9754db13330070ca4782399619a3</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Requested for Email</sys_name>
         <sys_package display_value="CLM" source="x_332570_clm">283d195edb71330070ca47823996191c</sys_package>
@@ -56,7 +56,7 @@
         <sys_scope display_value="CLM">283d195edb71330070ca47823996191c</sys_scope>
         <sys_update_name>sys_dictionary_x_332570_clm_needit_u_requested_for_email</sys_update_name>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2019-08-09 15:41:33</sys_updated_on>
+        <sys_updated_on>2019-08-12 14:49:59</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
