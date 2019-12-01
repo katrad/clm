@@ -1,15 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="u_other" table="x_332570_clm_needit">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="complete" table="x_332570_clm_needit">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>edge_encryption_enabled=true</attributes>
+        <attributes>target_field=percent_complete_target,target_threshold_colors=0:color1;33:color2;66:color3;90:color4,target_field=target</attributes>
         <audit>false</audit>
-        <calculation/>
-        <choice>0</choice>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
         <choice_field/>
         <choice_table/>
-        <column_label>Other</column_label>
+        <column_label>% complete</column_label>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -22,14 +27,14 @@
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>u_other</element>
+        <element>complete</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <function_definition/>
         <function_field>false</function_field>
-        <internal_type display_value="String">string</internal_type>
+        <internal_type display_value="">percent_complete</internal_type>
         <mandatory>false</mandatory>
-        <max_length>40</max_length>
+        <max_length>15</max_length>
         <name>x_332570_clm_needit</name>
         <next_element/>
         <primary>false</primary>
@@ -47,16 +52,16 @@
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2019-07-28 22:24:02</sys_created_on>
-        <sys_id>ea5c2ba3db0d001070ca47823996196d</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>Other</sys_name>
+        <sys_created_on>2019-12-01 22:04:42</sys_created_on>
+        <sys_id>48772814db61001070ca4782399619db</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>% complete</sys_name>
         <sys_package display_value="CLM" source="x_332570_clm">283d195edb71330070ca47823996191c</sys_package>
         <sys_policy/>
         <sys_scope display_value="CLM">283d195edb71330070ca47823996191c</sys_scope>
-        <sys_update_name>sys_dictionary_x_332570_clm_needit_u_other</sys_update_name>
-        <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2019-11-17 18:12:38</sys_updated_on>
+        <sys_update_name>sys_dictionary_x_332570_clm_needit_complete</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-01 22:10:17</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
